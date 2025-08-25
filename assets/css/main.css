@@ -3882,7 +3882,7 @@ input, select, textarea {
 	}
 
 	.tagline {
-  font-size: 0.9em;        /* try 0.95em or 0.9em if it still wraps */
+  font-size: 0.8em;        /* try 0.95em or 0.9em if it still wraps */
   line-height: 1.2;      /* tighter vertical spacing */
   text-align: center;    /* optional: center it under your name */
 }
