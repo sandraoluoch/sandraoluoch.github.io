@@ -3881,8 +3881,43 @@ input, select, textarea {
 
 	}
 
-	.tagline {
-  font-size: 0.8em;        /* try 0.95em or 0.9em if it still wraps */
-  line-height: 1.2;      /* tighter vertical spacing */
-  text-align: center;    /* optional: center it under your name */
+.tagline {
+  font-size: 0.8em;       /* shrink text a bit */
+  line-height: 1.2;       /* tighter vertical spacing */
+  text-align: center;     /* centers it under your name */
+  white-space: nowrap;    /* keeps it all on one line */
 }
+
+/* But allow wrapping on small screens so it doesn't overflow */
+@media (max-width: 640px) {
+  .tagline {
+    white-space: normal;
+	font-size: 1em;
+  }
+}
+
+/* === Custom theme overrides === */
+:root {
+  /* pick one: */
+  --accent: #F4A261;  /* pale orange */
+  /* --accent: #FF7F50;  /* coral (comment the other one) */ 
+}
+
+/* Links */
+a { color: var(--accent); }
+a:hover { color: #e07a3a; }  /* darker hover for #F4A261; adjust if using coral */
+
+/* Buttons / accents */
+.button, .button.primary { 
+  background-color: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.button:hover, .button.primary:hover {
+  background-color: #e07a3a;   /* tweak for your chosen accent */
+  border-color: #e07a3a;
+}
+
+/* Accent lines/icons used in HTML5 UP */
+.icon.major, .feature-icons li .icon { color: var(--accent); }
+.section > header h2:after, h2:after { background: var(--accent); } /* underline bars */
