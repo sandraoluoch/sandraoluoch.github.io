@@ -3896,3 +3896,15 @@ input, select, textarea {
   }
 }
 
+/* === Education section dividers === */
+.education-list .edu-item {
+  margin: 0 0 2rem 0;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;  /* light gray line */
+}
+
+.education-list .edu-item:last-child {
+  border-bottom: none;  /* no line after the last school */
+  padding-bottom: 0;
+}
+
