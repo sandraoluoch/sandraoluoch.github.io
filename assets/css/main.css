@@ -1961,7 +1961,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #49fcd4;
+			background-color: #F4A261;
 			box-shadow: none;
 			color: #000000 !important;
 		}
@@ -1971,7 +1971,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #93ffe7;
+				background-color: #E07A3A;
 			}
 
 			input[type="submit"].primary:active,
@@ -1979,7 +1979,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #44f2cb;
+				background-color: #CC6B2C;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -3896,28 +3896,3 @@ input, select, textarea {
   }
 }
 
-/* === Custom theme overrides === */
-:root {
-  /* pick one: */
-  --accent: #F4A261;  /* pale orange */
-  /* --accent: #FF7F50;  /* coral (comment the other one) */ 
-}
-
-/* Links */
-a { color: var(--accent); }
-a:hover { color: #e07a3a; }  /* darker hover for #F4A261; adjust if using coral */
-
-/* Buttons / accents */
-.button, .button.primary { 
-  background-color: var(--accent);
-  border-color: var(--accent);
-  color: #fff;
-}
-.button:hover, .button.primary:hover {
-  background-color: #e07a3a;   /* tweak for your chosen accent */
-  border-color: #e07a3a;
-}
-
-/* Accent lines/icons used in HTML5 UP */
-.icon.major, .feature-icons li .icon { color: var(--accent); }
-.section > header h2:after, h2:after { background: var(--accent); } /* underline bars */
