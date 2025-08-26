@@ -3937,3 +3937,28 @@ input, select, textarea {
   font-weight: 400;
 }
 
+/* === Skills section styling === */
+.skills-list {
+  list-style: none;          /* remove bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.skills-list li {
+  margin: 0 0 1rem 0;        /* spacing between rows */
+  font-size: 1em;
+  line-height: 1.6;
+  border-bottom: 1px solid #ddd; /* divider line */
+  padding-bottom: 0.75rem;
+}
+
+.skills-list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.skills-list strong {
+  color: #F4A261;            /* coral accent */
+  font-weight: 700;
+}
+
