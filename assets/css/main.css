@@ -3984,3 +3984,13 @@ input, select, textarea {
   color: #D65A31;          /* darker coral hover */
 }
 
+#first a {
+  color: #E76F51;         /* burnt orange */
+  font-weight: 600;
+  text-decoration: none;
+}
+#first a:hover {
+  text-decoration: underline;
+  color: #D65A31;         /* darker hover */
+}
+
