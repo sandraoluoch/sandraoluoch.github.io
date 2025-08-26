@@ -3884,7 +3884,7 @@ input, select, textarea {
 .tagline {
   font-size: 0.8em;       /* shrink text a bit */
   line-height: 1.2;       /* tighter vertical spacing */
-  text-align: right;     /* centers it under your name */
+  text-align: center;     /* centers it under your name */
   white-space: nowrap;    /* keeps it all on one line */
 }
 
