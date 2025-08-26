@@ -3962,3 +3962,25 @@ input, select, textarea {
   font-weight: 700;
 }
 
+/* === Publications section styling === */
+.pub-list {
+  list-style: disc;
+  margin-left: 1.5rem;
+  line-height: 1.6;
+}
+
+.pub-list li {
+  margin-bottom: 1rem;
+}
+
+.pub-list a {
+  color: #F4A261;          /* coral accent */
+  font-weight: 600;
+  text-decoration: none;   /* no underline */
+}
+
+.pub-list a:hover {
+  text-decoration: underline;
+  color: #E07A3A;          /* darker coral hover */
+}
+
