@@ -3908,3 +3908,32 @@ input, select, textarea {
   padding-bottom: 0;
 }
 
+/* === Work Experience styling === */
+.work-list .work-item {
+  margin: 0 0 2rem 0;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd; /* divider line */
+}
+
+.work-list .work-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.work-list .work-item h3 {
+  font-size: 1.1em;
+  font-weight: 700;
+  margin: 0 0 0.25rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+
+.work-list .work-item h3 .meta {
+  margin-left: auto; /* pushes the dates to the right */
+  font-size: 0.9em;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
